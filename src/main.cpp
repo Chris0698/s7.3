@@ -17,7 +17,7 @@ int main() {
     udp.open( &eth);
     SocketAddress source;
     /* YOU will have to hardwire the IP address in here */
-    SocketAddress server("192.168.70.36",4445);
+    SocketAddress server("192.168.70.16",4445);
 
     while(1){
         printf("press sw2\n");
